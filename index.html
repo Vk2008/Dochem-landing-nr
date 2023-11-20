@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-red">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width,initial scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Dochem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body style="background-color: #d21c32;"> 
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between" style="background-color: #6d071a; width: 100%;">
+              <img src="logo.png" width="80" height="80">
+                <div class="logo flex items-center text-red" style='font-family: Verdana; color: whitesmoke;' onclick=location.href='index.html'>Dochem</div>
+                  <ul class="navbar flex items-center">
+                       <li><button class="btns" type="button" style='font-family: Verdana; background-color: (235,39,39,0.5);'>Home</button></li>
+                       <li><button class="btns" type="button" style='font-family: Verdana;' onclick=location.href='subscription.html'>Buy subscription</button></li>
+                       <li><button class="btn" style='font-family: Verdana; font-weight:bold' onclick=location.href='coming.html'>Install now</button></li>
+
+                  </ul>
+            </nav>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex text-red">
+                  <div>
+                      <p style='font-family: Verdana; color: whitesmoke'>Heart Is Where The Health Is!</p>
+                      <div class="vl">
+                        <p style='font-family: Verdana; padding-left: 0.5em; color: whitesmoke'>Dochem is a mobile app which has a vision to solve all medical queries people have. </p>
+                      </div>
+                  </div>
+                  <div class="topright">
+                  </div>
+                </div>
+            </section>
+            <br><br>
+            <hr style="color: whitesmoke">
+            <section></section>
+            <hr style="color: whitesmoke">
+            <section>
+              <br>
+                <div class="text-red">
+                  <p style='font-family: Verdana; color: whitesmoke'>Here we come with a digital app which can help thousands of sufferers. Wherever the person is, he can access this app whenever needed. It provides beneficial on the spot medical services such as 
+                    <li style='font-family: Verdana; color: whitesmoke'>find your doctor</li>
+                    <li style='font-family: Verdana; color: whitesmoke'>get diet plans</li>
+                    <li style='font-family: Verdana; color: whitesmoke'>attend free online yoga sessions</li>
+                    <li style='font-family: Verdana; color: whitesmoke'>enjoy weekly blogs</li>
+                  </p>
+                </div>
+                <br>
+                <br>
+            </section>
+            <section></section>
+            <section></section>
+
+            <hr style="color: whitesmoke">
+            <section>
+              <h1 class="text-red" style='font-family: Verdana; color: whitesmoke'>Top Doctors</h1>
+                <!-- Carousel wrapper -->
+                  <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                      <button
+                        data-bs-target="#carouselDarkVariant"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        data-bs-target="#carouselDarkVariant"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        data-bs-target="#carouselDarkVariant"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner">
+                      <!-- Single item -->
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="a.png" class="d-block w-100" alt="Dochem"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <img src="avatar.png">
+                          <h5 style='font-family: Verdana; color: black'>Dr. Vineet Kumar Soni</h5>
+                          <p style='font-family: Verdana; color: whitesmoke'>General Surgeon</p>
+                        </div>
+                      </div>
+
+                      <!-- Single item -->
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="a.png" class="d-block w-100" alt="Dochem"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <img src="avatar.png">
+                          <h5 style='font-family: Verdana; color: black'>Dr. Vishwas Madhav Thakur</h5>
+                          <p style='font-family: Verdana; color: whitesmoke'>General Physician</p>
+                        </div>
+                      </div>
+
+                      <!-- Single item -->
+                      <div class="carousel-item">
+                        <img src="a.png" class="d-block w-100" alt="Dochem"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <img src="avatar.png">
+                          <h5 style='font-family: Verdana; color: black'>Dr. Kiran Soni</h5>
+                          <p style='font-family: Verdana; color: whitesmoke'>Dental Surgeon</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselDarkVariant" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                  <!-- Carousel wrapper -->
+            </section>
+            <hr style="color: whitesmoke">
+        </main>
+        <footer class="footer-distributed">
+
+          <div class="footer-left">
+    
+            <p style="color: whitesmoke; font-size: 1.5em;">Contact Us</p>
+    
+            <p class="footer-links">
+              <p style="color: whitesmoke;">dochem.service@gmail.com</p>
+              <p style="color: whitesmoke;">+91 93154 74370</p>
+            </p>
+    
+          </div>
+    
+          <div class="footer-right">
+    
+            <form action="#" method="post">
+    
+              <input type="text" name="name" placeholder="Name" required="required">
+              <input type="text" name="email" placeholder="Email" required="required">
+              <textarea name="message" placeholder="Message" required="required"></textarea>
+              <input type="submit" name="" value="Send" class="btns" style='font-family: Verdana'>
+              <p class="footer-company-name" style="color: whitesmoke; padding-left: 75%;">Dochem©2023</p>
+    
+            </form>
+    
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
